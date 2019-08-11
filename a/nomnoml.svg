@@ -1,0 +1,25 @@
+<svg width="294.5" height="397" version="1.1" baseProfile="full" viewbox="0 0 294.5 397" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="font-weight:bold; font-size:12pt; font-family:'Calibri', Helvetica, sans-serif;;stroke-width:3;stroke-linejoin:round;stroke-linecap:round"><rect x="13.5" y="13.5" height="371" width="268.5" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></rect>
+<text x="21.5" y="35" style="font-weight:normal;">Decorator pattern</text>
+<path d="M13.5 44.5 L183 44.5 L198.5 29 L198.5 13.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="188" y="108.5" style="font-weight:normal;">depends</text>
+<path d="M180 88.5 L180 108.5 L180 128.5 L180 128.5 " style="stroke:#33322E;fill:none;stroke-dasharray:6 6;"></path>
+<path d="M174.7 115.2 L180 121.8 L185.3 115.2 L180 128.5 Z" style="stroke:#33322E;fill:#33322E;stroke-dasharray:none;"></path>
+<text x="22" y="320.5" style="font-weight:normal;">decorates</text>
+<path d="M115.5 300.5 L115.5 320.5 L151.8 340.5 L151.8 340.5 " style="stroke:#33322E;fill:none;stroke-dasharray:6 6;"></path>
+<path d="M139 198.5 L115.5 218.5 L115.5 238.5 L115.5 238.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M132.3 211.2 L128.8 207.2 L125.3 203.1 L139 198.5 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></path>
+<path d="M221 198.5 L244.5 218.5 L244.5 269.5 L244.5 269.5 L244.5 320.5 L244.5 320.5 L208.2 340.5 L208.2 340.5 " style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M234.7 203.1 L231.2 207.2 L227.7 211.2 L221 198.5 Z" style="stroke:#33322E;fill:#eee8d5;stroke-dasharray:none;"></path>
+<rect x="119.5" y="128.5" height="70" width="121" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></rect>
+<text x="180" y="150" style="font-weight:normal;font-style:italic;text-anchor: middle;">Component</text>
+<path d="M119.5 159.5 L240.5 159.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<path d="M119.5 167.5 L240.5 167.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="127.5" y="189" style="font-weight:normal;">operation()</text>
+<rect x="26.5" y="238.5" height="62" width="178" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></rect>
+<text x="115.5" y="260" style="text-anchor: middle;">Decorator</text>
+<path d="M26.5 269.5 L204.5 269.5" style="stroke:#33322E;fill:none;stroke-dasharray:none;"></path>
+<text x="34.5" y="291" style="font-weight:normal;">- next: Component</text>
+<rect x="143.5" y="57.5" height="31" width="73" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></rect>
+<text x="180" y="79" style="text-anchor: middle;">Client</text>
+<rect x="91.5" y="340.5" height="31" width="178" style="stroke:#33322E;fill:#fdf6e3;stroke-dasharray:none;"></rect>
+<text x="180.5" y="362" style="text-anchor: middle;">ConcreteComponent</text></svg>
