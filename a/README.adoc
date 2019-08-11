@@ -9,4 +9,7 @@
 ===== Level 4 Section Title
 
 
-image::https://github.com/baronTommy/test/blob/master/a/_doc/nomnoml.svg[demo_svg]
+image::https://github.com/baronTommy/test/blob/master/a/_doc/nomnoml.svg[a]
+image::https://github.com/baronTommy/test/blob/master/a/_doc/nomnoml.svg[Embedded,300,opts=inline]
+image::./_doc/nomnoml.svg[Embedded,interactive]
+
