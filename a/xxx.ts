@@ -5,3 +5,12 @@
 function ruleOverPunyHumans () {
   // We must strategize beep boop
 }
+
+
+function ruleOverPunyHumans () {
+  // We must strategize beep boop
+}
+
+function ruleOverPunyHumans () {
+  // We must strategize beep boop
+}
