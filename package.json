@@ -1,20 +1,15 @@
 {
-  "name": "@gitmoji/template",
-  "version": "4.2.3",
+  "name": "test",
+  "version": "0.0.1",
   "description": "a template for gitmoji commit workflow",
-  "main": "lib/index.js",
   "scripts": {
     "release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arvinxx/gitmoji-commit-workflow-template.git"
+    "url": "https://github.com/baronTommy/test"
   },
-  "author": "Arvin Xu",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/arvinxx/gitmoji-commit-workflow-template/issues"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
