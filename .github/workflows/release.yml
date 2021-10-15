@@ -1,28 +1,20 @@
-name: Release CI
-on:
+name: Release
+'on':
   push:
     branches:
-      - master
-      - next
-      - beta
-      - alpha
-      - pre/rc
-      - 1.x
-      - 2.x
-
+      - main
 jobs:
   release:
-    name: Release
+    name: release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - uses: c-hive/gha-yarn-cache@v1
-
-      - name: install
-        run: yarn
-
-      - name: release
-        run: yarn release
+      - uses: actions/setup-node@v2
+        with:
+          cache: npm
+          node-version: 16
+      - run: |
+          npm
+          npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
